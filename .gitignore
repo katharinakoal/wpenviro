@@ -36,3 +36,4 @@ cms/content/plugins/*
 # specify (see the commented-out example for a hint on how to do this.)
 cms/content/themes/*
 !cms/content/themes/enviro2017/
+!cms/content/themes/collectivesense/
