@@ -18,6 +18,7 @@
 !index.php
 !cms/wp-config.php
 !cms/content/
+!.idea
 
 # Ignore everything in the "wp-content" directory, except the "plugins"
 # and "themes" directories.

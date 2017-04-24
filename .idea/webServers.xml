@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="928cb54c-860e-4de0-8d1a-534e4da969ee" name="wpenviro" url="http://41.45.92.33/~wpenviro/">
+        <fileTransfer host="webhost2.f2.htw-berlin.de" port="24" rootFolder="/wpenviro.f2.htw-berlin.de/html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="24" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
