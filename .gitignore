@@ -19,6 +19,7 @@
 !cms/wp-config.php
 !cms/content/
 !.idea
+.idea/workspace.xml
 
 # Ignore everything in the "wp-content" directory, except the "plugins"
 # and "themes" directories.
