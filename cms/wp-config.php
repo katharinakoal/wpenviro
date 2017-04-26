@@ -90,8 +90,8 @@ if ( !defined('ABSPATH') )
 define('AUTOSAVE_INTERVAL', 300 ); 
 define('WP_POST_REVISIONS', false );
 
-define('WP_SITEURL','http://141.45.92.33/~wpenviro/cms/'); // ../cms
-define('WP_HOME','http://141.45.92.33/~wpenviro/');
+define('WP_SITEURL','http://wpenviro.f2.htw-berlin.de/cms/'); // ../cms
+define('WP_HOME','http://wpenviro.f2.htw-berlin.de/');
 define ('WP_CONTENT_FOLDERNAME', 'content');
 define ('WP_CONTENT_URL', WP_SITEURL . WP_CONTENT_FOLDERNAME);
 define ('WP_CONTENT_DIR', ABSPATH . WP_CONTENT_FOLDERNAME) ;

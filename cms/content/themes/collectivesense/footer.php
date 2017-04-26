@@ -7,7 +7,10 @@
  * @package _tk
  */
 ?>
-			</div><!-- close .*-inner (main-content or sidebar, depending if sidebar is used) -->
+                        </div>
+                    </div>
+                </div>
+            </div><!-- close .*-inner (main-content or sidebar, depending if sidebar is used) -->
 		</div><!-- close .row -->
 	</div><!-- close .container -->
 </div><!-- close .main-content -->
