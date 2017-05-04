@@ -5,9 +5,9 @@
 
         var construct = function construct(){
 
-
-
-            console.log('jo');
+            particlesJS.load('cover-image', ParticlesConfigURL , function() {
+                console.log('callback - particles.js config loaded');
+            });
 
         };
 

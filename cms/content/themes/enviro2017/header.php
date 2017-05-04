@@ -23,17 +23,18 @@
 	<header id="masthead" class="site-header" role="banner">
         <div class="container-fluid">
             <div class="row">
-                <div class="site-navigation-inner col-sm-12">
+                <div class="site-navigation-inner">
                     <div class="navbar navbar-default navbar-fat navbar-clean">
                         <div class="container-fluid">
 
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar b1"></span> <span class="icon-bar b2"></span> <span class="icon-bar b3"></span> </button>
                             <div class="navbar-header">
 
-                                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-                                            <img src="<?php echo THEME_DIR_URI; ?>/img/logo_text.png" width="100"  alt="">
-                                        </a>
-                                    <!--<p class="site-description lead"><?php bloginfo( 'description' ); ?></p>-->
+                                    <a class="clearfix" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+                                        <img class="logo" src="<?php echo THEME_DIR_URI; ?>/img/logo_w.png" width="100"  alt="">
+                                        <span class="title"><?php bloginfo( 'title' ); ?></span><br/>
+                                        <span class="description"><?php bloginfo( 'description' ); ?></span>
+                                    </a>
 
                             </div>
                             <?php wp_nav_menu(
@@ -53,21 +54,16 @@
         </div>
 	</header><!-- #masthead -->
     <?php
-    if ( is_front_page() && is_home() ) : ?>
+    /*if ( is_front_page() && is_home() ) : */?>
 
         <div class="cover full-window">
 
-            <div class="cover-image">
+            <div id="cover-image">
 
             </div>
 
         </div>
 
-
-    <?php else : ?>
-        <p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-        <?php
-    endif; ?>
     <div class="main-content">
         <div class="container-fluid">
             <div class="row">

@@ -27,7 +27,7 @@ if ( ! function_exists( 'enviro2017_setup' ) ) :
          * If you're building a theme based on Enviroinfo.eu 2017, use a find and replace
          * to change 'enviro2017' to the name of your theme in all the template files.
          */
-        load_theme_textdomain( 'enviro2017', get_template_directory() . '/languages' );
+        load_theme_textdomain( 'enviro2017', THEME_DIR_PATH . '/languages' );
 
         /*
          * Let WordPress manage the document title.
@@ -62,7 +62,7 @@ add_action( 'after_setup_theme', 'enviro2017_setup' );
  */
 function enviro2017_scripts() {
 
-    wp_enqueue_style( 'enviro2017-font',  get_template_directory_uri() . '/fonts/liberationsans.css' );
+    wp_enqueue_style( 'enviro2017-font',  THEME_DIR_URI . '/fonts/liberationsans.css' );
 
     wp_enqueue_style( 'enviro2017-bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' );
 
@@ -70,7 +70,10 @@ function enviro2017_scripts() {
 
     wp_enqueue_script('enviro2017-bootstrapjs', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', array('jquery') );
 
-	wp_enqueue_script( 'enviro2017-app', get_template_directory_uri() . '/js/app.js', array('jquery'), '20170426', true );
+    wp_enqueue_script( 'enviro2017-particles',THEME_DIR_URI . '/js/particles.min.js', array('jquery'), null, true );
+    wp_localize_script( 'enviro2017-particles', 'ParticlesConfigURL', THEME_DIR_URI . '/js/particlesjs-config.json' );
+
+	wp_enqueue_script( 'enviro2017-app', THEME_DIR_URI . '/js/app.js', array('jquery', 'enviro2017-particles'), '20170426', true );
 
 }
 add_action( 'wp_enqueue_scripts', 'enviro2017_scripts' );
@@ -81,5 +84,7 @@ require get_template_directory() . '/inc/template-tags.php';
 require get_template_directory() . '/inc/customize-wp.php';
 
 require get_template_directory() . '/inc/bootstrap-wp-navwalker.php';
+
+require get_template_directory() . '/inc/custom-post-types.php';
 
 

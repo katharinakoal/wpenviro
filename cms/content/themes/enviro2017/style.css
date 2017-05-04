@@ -245,6 +245,7 @@ html,body{
 	height: 100%;
 	min-height: 100%;
 	position: relative;
+    font-size: 14px;
 }
 #masthead .navbar-default {
 	z-index: 1000;
@@ -259,9 +260,44 @@ html,body{
 	position: absolute;
 	background: -webkit-linear-gradient(0deg,rgba(0,0,0,0) 0,rgba(0,0,0,.5) 100%);
 	background: linear-gradient(0deg,rgba(0,0,0,0) 0,rgba(0,0,0,.5) 100%);
-	padding: 20px 60px 20px 20px;
+	padding: 20px 20px 20px 20px;
 }
 #masthead .navbar-clean {
 	background: 0 0;
+	color: white;
+}
+#masthead .navbar-default .navbar-nav>li>a{
+	color: white;
+	font-weight: bold;
+    padding: 10px 30px;
+}
+#cover-image{
+	width: 100%; height: 100%;
+	background: -webkit-linear-gradient(right top, rgba(60, 40, 29, 0) 0%, rgb(60, 40, 29) 100%), -webkit-linear-gradient(right bottom, rgba(107, 71, 49, 0) 0%, rgb(107, 71, 49) 100%), -webkit-linear-gradient(left bottom, rgba(144, 106, 69, 0) 0%, rgb(144, 106, 69) 100%), -webkit-linear-gradient(left top, rgba(180, 154, 93, 0) 0%, rgb(180, 154, 93) 100%);
+	background-image: url("http://wpenviro.f2.htw-berlin.de/cms/content/uploads/2017/05/StockSnap_Z7NU2LCKNJ_50.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+.cover.full-window{
+    height: 100%;
+}
+#page.site{
+    height:100%;
+    min-height:100%;
+}
+
+.navbar-header img.logo{
+    display: block;
+    float:left;
+    margin-right: 10px;
+}
+.navbar-header a {
+    color: white;
+}
+.navbar-header span.title{
+    font-weight: bold;
+    display:inline-block;
+    margin-top: 10px;
 }
 
