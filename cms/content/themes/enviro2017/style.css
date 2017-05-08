@@ -274,13 +274,13 @@ html,body{
 #cover-image{
 	width: 100%; height: 100%;
 	background: -webkit-linear-gradient(right top, rgba(60, 40, 29, 0) 0%, rgb(60, 40, 29) 100%), -webkit-linear-gradient(right bottom, rgba(107, 71, 49, 0) 0%, rgb(107, 71, 49) 100%), -webkit-linear-gradient(left bottom, rgba(144, 106, 69, 0) 0%, rgb(144, 106, 69) 100%), -webkit-linear-gradient(left top, rgba(180, 154, 93, 0) 0%, rgb(180, 154, 93) 100%);
-	background-image: url("http://wpenviro.f2.htw-berlin.de/cms/content/uploads/2017/05/StockSnap_Z7NU2LCKNJ_50.jpg");
+	background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/4OJUCXAL8F.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 50% 50%;
+	background-position: 50% 75%;
 }
 .cover.full-window{
-    height: 100%;
+    height: 50%;
 }
 #page.site{
     height:100%;
@@ -294,10 +294,25 @@ html,body{
 }
 .navbar-header a {
     color: white;
+    text-decoration:none;
 }
 .navbar-header span.title{
     font-weight: bold;
     display:inline-block;
     margin-top: 10px;
 }
+.cover{
+    color: white;
+    font-size: 150%;
+    position:relative;
+}
+.cover .container-fluid {
+    position: absolute;
+    bottom: 0;
+    padding: 60px 60px 10px 35px;
+    width: 100%;
+    background: -webkit-linear-gradient(0deg,rgba(0,0,0,.5) 0,rgba(0,0,0,0) 100%);
+    background: linear-gradient(0deg,rgba(0,0,0,.5) 0,rgba(0,0,0,0) 100%);
+}
+
 

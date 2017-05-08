@@ -58,8 +58,13 @@
 
         <div class="cover full-window">
 
-            <div id="cover-image">
-
+            <div id="cover-image"></div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-6 welcome">
+                        <h1>Herzlich Willkommmen.</h1>
+                    </div>
+                </div>
             </div>
 
         </div>
