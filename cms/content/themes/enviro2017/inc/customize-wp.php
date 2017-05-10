@@ -105,6 +105,10 @@ function enviro2017_logged_in_only() {
 }
 add_action( 'template_redirect', 'enviro2017_logged_in_only' );
 
+add_filter( 'tiny_mce_before_init', function( $args ) {
+    $args['media_buttons'] = 0;
+    return $args;
+});
 
 
 

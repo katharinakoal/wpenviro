@@ -78,6 +78,23 @@ function enviro2017_entry_footer() {
 }
 endif;
 
+function enviro2017_page_hierarchy(){
+
+    $page_id = get_the_ID();
+
+    $ancestors = get_ancestors( $page_id, 'page');
+
+    $page_parent = empty($ancestors) ? count( get_children( array('post_parent' => $page_id, 'post_type' => 'page') ) ) ? $page_id :  false : end($ancestors);
+
+    if( !$page_parent ) return;
+
+    wp_list_pages(array(
+        'child_of' => $page_parent,
+        'title_li' => null
+    ));
+
+}
+
 /**
  * Returns true if a blog has more than 1 category.
  *

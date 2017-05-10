@@ -15,11 +15,20 @@
         </div>
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'enviro2017' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'enviro2017' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'enviro2017' ), 'enviro2017', '<a href="https://automattic.com/" rel="designer">Katharina Koal</a>' ); ?>
+	<footer id="colophon" class="site-footer container-fluid" role="contentinfo">
+		<div class="site-info row">
+            <div class="col-xs-12">
+                <span> &copy; <?php echo date("Y"); ?> enviroinfo.eu </span>
+                <?php printf('<a href="mailto:%1$s">%1$s</a>',antispambot('info@enviroinfo.eu')); ?>
+                <?php wp_nav_menu(
+                    array(
+                        'theme_location'    => 'footer',
+                        'depth'             => 1,
+                        'container'         => false,
+                        'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+                        'walker'            => new WP_Bootstrap_Navwalker()
+                    )); ?>
+            </div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

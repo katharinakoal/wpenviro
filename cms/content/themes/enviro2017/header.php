@@ -39,8 +39,8 @@
                             </div>
                             <?php wp_nav_menu(
                                 array(
-                                    'menu'              => 'primary',
-                                    'depth'             => 2,
+                                    'theme_location'    => 'primary',
+                                    'depth'             => 1,
                                     'container'         => 'div',
                                     'container_class'   => 'collapse navbar-collapse',
                                     'menu_class'        => 'nav navbar-nav navbar-right',
@@ -53,8 +53,6 @@
             </div>
         </div>
 	</header><!-- #masthead -->
-    <?php
-    /*if ( is_front_page() && is_home() ) : */?>
 
         <div class="cover full-window">
 
@@ -62,7 +60,14 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-6 welcome">
-                        <h1>Herzlich Willkommmen.</h1>
+                        <?php if ( is_front_page() && is_home() ) : ?>
+                            <h1>Herzlich Willkommmen.</h1>
+                        <?php
+                        else:
+                            $queried_object = get_queried_object();
+                            printf('<h1>%s</h1>',$queried_object->label ? $queried_object->label : $queried_object->post_title);
+                        endif;
+                        ?>
                     </div>
                 </div>
             </div>

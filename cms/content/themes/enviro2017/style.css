@@ -256,6 +256,74 @@ html,body{
 	margin-bottom: 0!important;
 	border: 0;
 }
+#page-site {
+	margin-bottom: 60px;
+}
+.site-footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	color: #777;
+}
+
+header.page-header,
+footer.site-footer{
+	background-color: #222;
+}
+
+header.page-header{
+	margin:0;
+	padding:0;
+}
+
+header.page-header ul.categories{
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+
+header.page-header ul.categories>li {
+	float:left;
+}
+header.page-header ul.categories>li>a{
+	display:block;
+	color: #fff;
+	padding: 20px 30px;
+	font-weight:bold;
+}
+header.page-header ul.categories>li>a:hover,
+header.page-header ul.categories>li>a:active{
+	text-decoration: none;
+	color: #fff;
+	background: #344f91;
+}
+body.post-type-archive-event header.page-header ul.categories>li.cat-item-all>a,
+header.page-header ul.categories>li.current-cat>a{
+	background: #e2e2e2;
+	color:  #344f91;
+}
+.site-footer .site-info{
+	padding: 20px 0;
+	text-align: center;
+}
+.site-footer .site-info a{
+	color: #777;
+}
+.site-footer .site-info a,
+.site-footer .site-info span{
+	margin: 0 20px;
+}
+
+.site-footer ul.menu{
+	display: inline-block;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.site-footer ul.menu>li{
+	display: inline-block;
+}
 #masthead .navbar-fat {
 	position: absolute;
 	background: -webkit-linear-gradient(0deg,rgba(0,0,0,0) 0,rgba(0,0,0,.5) 100%);
@@ -263,18 +331,20 @@ html,body{
 	padding: 20px 20px 20px 20px;
 }
 #masthead .navbar-clean {
-	background: 0 0;
 	color: white;
 }
 #masthead .navbar-default .navbar-nav>li>a{
 	color: white;
 	font-weight: bold;
-    padding: 10px 30px;
+    margin: 5px 30px;
+	padding: 5px 0px;
 }
+
+
 #cover-image{
 	width: 100%; height: 100%;
 	background: -webkit-linear-gradient(right top, rgba(60, 40, 29, 0) 0%, rgb(60, 40, 29) 100%), -webkit-linear-gradient(right bottom, rgba(107, 71, 49, 0) 0%, rgb(107, 71, 49) 100%), -webkit-linear-gradient(left bottom, rgba(144, 106, 69, 0) 0%, rgb(144, 106, 69) 100%), -webkit-linear-gradient(left top, rgba(180, 154, 93, 0) 0%, rgb(180, 154, 93) 100%);
-	background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/4OJUCXAL8F.jpg");
+	background: url("http://wpenviro.f2.htw-berlin.de/cms/content/uploads/2017/05/StockSnap_Z7NU2LCKNJ_50.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 75%;
@@ -296,6 +366,12 @@ html,body{
     color: white;
     text-decoration:none;
 }
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.current-page-ancestor>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: white;
+	border-bottom: 1px solid white;
+	background: none;
+}
+
 .navbar-header span.title{
     font-weight: bold;
     display:inline-block;
@@ -309,7 +385,7 @@ html,body{
 .cover .container-fluid {
     position: absolute;
     bottom: 0;
-    padding: 60px 60px 10px 35px;
+    padding: 60px 60px 10px 30px;
     width: 100%;
     background: -webkit-linear-gradient(0deg,rgba(0,0,0,.5) 0,rgba(0,0,0,0) 100%);
     background: linear-gradient(0deg,rgba(0,0,0,.5) 0,rgba(0,0,0,0) 100%);
