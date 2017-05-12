@@ -78,6 +78,20 @@ function enviro2017_entry_footer() {
 }
 endif;
 
+function enviro2017_event_date_badge( $event_date ){
+
+    $output = [];
+
+    foreach( $event_date as $date )
+        $output[] = sprintf('<div class="date"><span class="day">%1$s</span><br><span class="month-year">%2$s</span></div>',
+                $date->format("d."),
+                date_i18n("M y", $date->getTimestamp())
+            );
+
+    printf( '<div class="event-date-badge clearfix">%s</div>', implode("<div class='separator'>-</div>",$output));
+
+}
+
 function enviro2017_page_hierarchy(){
 
     $page_id = get_the_ID();

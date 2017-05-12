@@ -9,6 +9,8 @@
                 console.log('callback - particles.js config loaded');
             });
 
+            $('article.event').matchHeight();
+
         };
 
         return {

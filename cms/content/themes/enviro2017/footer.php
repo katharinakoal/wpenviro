@@ -17,9 +17,13 @@
 
 	<footer id="colophon" class="site-footer container-fluid" role="contentinfo">
 		<div class="site-info row">
-            <div class="col-xs-12">
+            <div class="col-xs-4 col-sm-4">
                 <span> &copy; <?php echo date("Y"); ?> enviroinfo.eu </span>
+            </div>
+            <div class="col-xs-4 col-sm-4">
                 <?php printf('<a href="mailto:%1$s">%1$s</a>',antispambot('info@enviroinfo.eu')); ?>
+            </div>
+            <div class="col-xs-4 col-sm-4">
                 <?php wp_nav_menu(
                     array(
                         'theme_location'    => 'footer',
