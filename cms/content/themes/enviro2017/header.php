@@ -63,14 +63,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-6 welcome">
-                    <?php if (is_front_page() && is_home()) : ?>
-                        <h1>Herzlich Willkommmen.</h1>
-                        <?php
-                    else:
-                        $queried_object = get_queried_object();
-                        printf('<h1>%s</h1>', $queried_object->label ? $queried_object->label : $queried_object->post_title);
-                    endif;
-                    ?>
+                    <h1><?php echo enviro2017_display_title(); ?></h1>
                 </div>
             </div>
         </div>

@@ -31,7 +31,7 @@ get_header(); ?>
                 </header><!-- .page-header -->
             <?php endif; ?>
 
-            <div class="container-fluid container-posts">
+            <div class="container-fluid container-grid">
                 <div class="row">
 
 
@@ -40,7 +40,7 @@ get_header(); ?>
 
                         <?php while (have_posts()) : the_post(); ?>
 
-                            <div class="col-lg-4 col-md-6 col-sm-12 col-posts">
+                            <div class="col-lg-4 col-md-6 col-sm-12 col-grid">
 
                                 <?php get_template_part('template-parts/content', get_post_type()); ?>
                             </div>

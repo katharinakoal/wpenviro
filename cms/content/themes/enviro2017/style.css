@@ -271,6 +271,10 @@ html, body {
     color: #777;
 }
 
+.entry-content{
+    line-height: 150%;
+}
+
 header.page-header,
 footer.site-footer {
     background-color: #222;
@@ -318,29 +322,78 @@ div.main-content {
     padding-bottom: 60px;
 }
 
-div.container-posts article {
+div.container-grid article {
     background: #fff;
-    padding: 20px;
+    padding: 40px;
 }
 
-div.container-posts article.event {
-    box-shadow: 0px 0px 10px #8a8a8a;
+div.container-grid .page-tree{
+    padding: 20px 0px 20px 20px;
+    background: #fff;
 }
 
-article.event a {
-    color: #000;
+.page-tree ul{
+    list-style: none;
 }
 
-div.container-posts .row {
+.page-tree ul.children{
+    padding-left: 20px;
+}
+
+.page-tree ul a {
+    position: relative;
+    font-weight: bold;
+    position: relative;
+    display: block;
+    padding: 11px 20px 9px;
+    border-bottom: 1px solid #e2e2e2;
+}
+/*.page-tree ul a:after{
+    content: " ";
+    display: block;
+    height: 1px;
+    background: #e2e2e2;
+    width: 100%;
+    position:absolute;
+    left:20px;
+    bottom: 0;
+}*/
+.page-tree ul a:hover{
+    color: #fff;
+    background: #344f91;
+}
+
+.page-tree ul li.current_page_item>a{
+    color: #344f91;
+    background-color: #e2e2e2;
+}
+
+article.event a,
+.page-tree ul a{
+    color: #555;
+}
+
+article.event a:hover,
+article.event a:active,
+.page-tree ul a:hover,
+.page-tree ul a:active{
+    text-decoration: none;
+}
+
+div.container-grid .row {
     padding: 10px;
 }
 
-div.container-posts .col-posts {
+div.container-grid .col-grid {
     padding: 10px;
 }
 
-div.container-posts h2.entry-title{
+div.container-grid h2.entry-title{
     margin-top:0;
+    font-size: 1.5em;
+    margin-bottom: 1.2em;
+    line-height:120%;
+    font-weight: bold;
 }
 
 .site-footer .site-info {
@@ -355,6 +408,10 @@ div.container-posts h2.entry-title{
 .site-footer .site-info a,
 .site-footer .site-info span {
     margin: 0 20px;
+}
+
+article{
+    color: #555
 }
 
 .site-footer ul.menu {
@@ -438,11 +495,21 @@ div.container-posts h2.entry-title{
     background: linear-gradient(0deg, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, 0) 100%);
 }
 
+.entry-content a,
+.entry-footer a{
+   color:#344f91;
+}
+
+.entry-content h2{
+    font-size: 1.5em;
+    margin: 1.2em 0;
+}
+
 article.event .event-date-badge {
     float: right;
     background: #344f91;
     color: #fff;
-    margin: -20px -20px 20px 40px;
+    margin: -40px -40px 20px 40px;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 12px;
@@ -454,8 +521,8 @@ article.event a.attachement{
     color: #344f91;
 }
 
-article.event .event-venue {
-    color: #777;
+.event-venue{
+    font-weight: bold;
 }
 
 .event-date-badge > div {
@@ -471,9 +538,9 @@ article.event .event-venue {
 
 .event-date-badge .day,
 .event-date-badge .separator {
-    font-size: 2em;
+    font-size: 1.8em;
     line-height: 100%;
-    margin-bottom: 5px;
+    margin-bottom: 7px;
 }
 
 .event-date-badge .day,
