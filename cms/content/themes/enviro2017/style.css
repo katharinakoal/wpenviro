@@ -70,6 +70,13 @@ a {
 }
 
 a:active,
+a:hover,
+a:focus,
+a:visited {
+    text-decoration: none;
+}
+
+a:active,
 a:hover {
     outline: 0;
 }
@@ -271,7 +278,7 @@ html, body {
     color: #777;
 }
 
-.entry-content{
+.entry-content {
     line-height: 150%;
 }
 
@@ -323,23 +330,23 @@ div.main-content {
 }
 
 div.container-grid article,
-div.container-grid .page-tree{
+div.container-grid .page-tree {
     background: #fff;
     padding: 40px;
-    -moz-box-shadow: 2px 3px 27px -7px rgba(0,0,0,0.22);
-    -webkit-box-shadow: 2px 3px 27px -7px rgba(0,0,0,0.22);
-    box-shadow: 2px 3px 27px -7px rgba(0,0,0,0.22);
+    -moz-box-shadow: 2px 3px 27px -7px rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow: 2px 3px 27px -7px rgba(0, 0, 0, 0.22);
+    box-shadow: 2px 3px 27px -7px rgba(0, 0, 0, 0.22);
 }
 
-div.container-grid .page-tree{
+div.container-grid .page-tree {
     padding: 20px 0px 20px 20px;
 }
 
-.page-tree ul{
+.page-tree ul {
     list-style: none;
 }
 
-.page-tree ul.children{
+.page-tree ul.children {
     padding-left: 20px;
 }
 
@@ -349,14 +356,15 @@ div.container-grid .page-tree{
     font-weight: bold;
     position: relative;
     padding: 0px 0px 0px 20px;
-    margin-top:-1px;
+    margin-top: -1px;
 }
 
-.page-tree ul a>span {
+.page-tree ul a > span {
     display: block;
     padding: 12px 20px 9px 0px;
     border-bottom: 1px solid #e2e2e2;
 }
+
 /*.page-tree ul a:after{
     content: " ";
     display: block;
@@ -368,25 +376,25 @@ div.container-grid .page-tree{
     bottom: 0;
 }*/
 .page-tree ul a:hover,
-.page-tree ul li.current_page_item>a{
+.page-tree ul li.current_page_item > a {
     color: #fff;
     background: #344f91;
 }
 
-.page-tree ul a:hover>span,
-.page-tree ul li.current_page_item>a>span{
+.page-tree ul a:hover > span,
+.page-tree ul li.current_page_item > a > span {
     border-color: #344f91
 }
 
 article.event a,
-.page-tree ul a{
+.page-tree ul a {
     color: #555;
 }
 
 article.event a:hover,
 article.event a:active,
 .page-tree ul a:hover,
-.page-tree ul a:active{
+.page-tree ul a:active {
     text-decoration: none;
 }
 
@@ -398,11 +406,11 @@ div.container-grid .col-grid {
     padding: 10px;
 }
 
-div.container-grid h2.entry-title{
-    margin-top:0;
+div.container-grid h2.entry-title {
+    margin-top: 0;
     font-size: 1.5em;
     margin-bottom: 1.2em;
-    line-height:120%;
+    line-height: 120%;
     font-weight: bold;
 }
 
@@ -420,7 +428,7 @@ div.container-grid h2.entry-title{
     margin: 0 20px;
 }
 
-article{
+article {
     color: #555
 }
 
@@ -484,10 +492,10 @@ article{
     background: none;
 }
 
-.navbar-header span.title {
-    font-weight: bold;
+.navbar-header span.site-title {
     display: inline-block;
     margin-top: 10px;
+    max-width: 340px;
 }
 
 .cover {
@@ -506,11 +514,11 @@ article{
 }
 
 .entry-content a,
-.entry-footer a{
-   color:#344f91;
+.entry-footer a {
+    color: #344f91;
 }
 
-.entry-content h2{
+.entry-content h2 {
     font-size: 1.5em;
     margin: 1.2em 0;
 }
@@ -527,11 +535,11 @@ article.event .event-date-badge {
     text-align: center;
 }
 
-article.event a.attachement{
+article.event a.attachement {
     color: #344f91;
 }
 
-.event-venue{
+.event-venue {
     font-weight: bold;
 }
 
@@ -561,26 +569,36 @@ article.event a.attachement{
 
 .transition,
 header.page-header ul.categories > li > a,
-.page-tree ul a{
-    -webkit-transition: background-color, color, border-color;
-    -moz-transition: background-color, color, border-color;
-    -o-transition: background-color, color, border-color;
-    transition: background-color, color, border-color;
-    -webkit-transition-duration: 300ms;
-    -moz-transition-duration: 300ms;
-    -o-transition-duration: 300ms;
-    transition-duration: 300ms;
+.page-tree ul a {
+    -webkit-transition: background-color, color;
+    -moz-transition: background-color, color;
+    -o-transition: background-color, color;
+    transition: background-color, color;
+    -webkit-transition-duration: 200ms;
+    -moz-transition-duration: 200ms;
+    -o-transition-duration: 200ms;
+    transition-duration: 200ms;
 }
 
-.page-tree ul a>span{
-    -webkit-transition:border-color;
+.transition:hover,
+header.page-header ul.categories > li > a:hover,
+.page-tree ul a:hover,
+.page-tree ul a:hover > span {
+    -webkit-transition-duration: 0ms;
+    -moz-transition-duration: 0ms;
+    -o-transition-duration: 0ms;
+    transition-duration: 0ms;
+}
+
+.page-tree ul a > span {
+    -webkit-transition: border-color;
     -moz-transition: border-color;
     -o-transition: border-color;
-    transition:  border-color;
-    -webkit-transition-duration: 300ms;
-    -moz-transition-duration: 300ms;
-    -o-transition-duration: 300ms;
-    transition-duration: 300ms;
+    transition: border-color;
+    -webkit-transition-duration: 200ms;
+    -moz-transition-duration: 200ms;
+    -o-transition-duration: 200ms;
+    transition-duration: 200ms;
 }
 
 

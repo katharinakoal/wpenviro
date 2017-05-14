@@ -36,8 +36,7 @@
                                    title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
                                     <img class="logo" src="<?php echo THEME_DIR_URI; ?>/img/logo_w.png" width="100"
                                          alt="">
-                                    <span class="title"><?php bloginfo('title'); ?></span><br/>
-                                    <span class="description"><?php bloginfo('description'); ?></span>
+                                    <span class="site-title"><b><?php bloginfo('title'); ?></b><br/><?php bloginfo('description'); ?></span>
                                 </a>
 
                             </div>
