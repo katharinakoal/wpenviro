@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a0ba5ab0-9935-4b47-ae39-49c900420a9b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/content/themes/enviro2017/header.php" afterPath="$PROJECT_DIR$/cms/content/themes/enviro2017/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/content/themes/enviro2017/style.css" afterPath="$PROJECT_DIR$/cms/content/themes/enviro2017/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,28 +18,18 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="510">
               <caret line="38" column="100" lean-forward="false" selection-start-line="38" selection-start-column="100" selection-end-line="38" selection-end-column="100" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="78" column="9" lean-forward="false" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="liberationsans.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/fonts/liberationsans.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="374">
+              <caret line="467" column="109" lean-forward="false" selection-start-line="467" selection-start-column="109" selection-end-line="467" selection-end-column="109" />
               <folding />
             </state>
           </provider>
@@ -190,8 +179,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -388,6 +375,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -513,11 +502,12 @@
       <workItem from="1494753169133" duration="242000" />
       <workItem from="1494761221199" duration="890000" />
       <workItem from="1494763900868" duration="1051000" />
+      <workItem from="1494770138045" duration="367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80037000" />
+    <option name="totallyTimeSpent" value="80404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -814,16 +804,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="510">
           <caret line="38" column="100" lean-forward="false" selection-start-line="38" selection-start-column="100" selection-end-line="38" selection-end-column="100" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="78" column="9" lean-forward="false" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -831,7 +813,15 @@
     <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/fonts/liberationsans.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="35" />
+          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="467" column="109" lean-forward="false" selection-start-line="467" selection-start-column="109" selection-end-line="467" selection-end-column="109" />
           <folding />
         </state>
       </provider>
