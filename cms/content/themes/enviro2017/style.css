@@ -322,14 +322,17 @@ div.main-content {
     padding-bottom: 60px;
 }
 
-div.container-grid article {
+div.container-grid article,
+div.container-grid .page-tree{
     background: #fff;
     padding: 40px;
+    -moz-box-shadow: 2px 3px 27px -7px rgba(0,0,0,0.22);
+    -webkit-box-shadow: 2px 3px 27px -7px rgba(0,0,0,0.22);
+    box-shadow: 2px 3px 27px -7px rgba(0,0,0,0.22);
 }
 
 div.container-grid .page-tree{
     padding: 20px 0px 20px 20px;
-    background: #fff;
 }
 
 .page-tree ul{
@@ -341,11 +344,17 @@ div.container-grid .page-tree{
 }
 
 .page-tree ul a {
+    display: block;
     position: relative;
     font-weight: bold;
     position: relative;
+    padding: 0px 0px 0px 20px;
+    margin-top:-1px;
+}
+
+.page-tree ul a>span {
     display: block;
-    padding: 11px 20px 9px;
+    padding: 12px 20px 9px 0px;
     border-bottom: 1px solid #e2e2e2;
 }
 /*.page-tree ul a:after{
@@ -358,14 +367,15 @@ div.container-grid .page-tree{
     left:20px;
     bottom: 0;
 }*/
-.page-tree ul a:hover{
+.page-tree ul a:hover,
+.page-tree ul li.current_page_item>a{
     color: #fff;
     background: #344f91;
 }
 
-.page-tree ul li.current_page_item>a{
-    color: #344f91;
-    background-color: #e2e2e2;
+.page-tree ul a:hover>span,
+.page-tree ul li.current_page_item>a>span{
+    border-color: #344f91
 }
 
 article.event a,
@@ -547,6 +557,30 @@ article.event a.attachement{
 .event-date-badge .month-year {
     display: inline-block;
     width: 100%;
+}
+
+.transition,
+header.page-header ul.categories > li > a,
+.page-tree ul a{
+    -webkit-transition: background-color, color, border-color;
+    -moz-transition: background-color, color, border-color;
+    -o-transition: background-color, color, border-color;
+    transition: background-color, color, border-color;
+    -webkit-transition-duration: 300ms;
+    -moz-transition-duration: 300ms;
+    -o-transition-duration: 300ms;
+    transition-duration: 300ms;
+}
+
+.page-tree ul a>span{
+    -webkit-transition:border-color;
+    -moz-transition: border-color;
+    -o-transition: border-color;
+    transition:  border-color;
+    -webkit-transition-duration: 300ms;
+    -moz-transition-duration: 300ms;
+    -o-transition-duration: 300ms;
+    transition-duration: 300ms;
 }
 
 

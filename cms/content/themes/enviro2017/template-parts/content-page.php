@@ -10,7 +10,7 @@
 ?>
 <?php enviro2017_page_hierarchy(); ?>
 
-<div class="col-sm-8 col-md-9 col-xs-12 col-grid">
+<div class="col-lg-7 col-sm-8 col-md-9 col-xs-12 col-grid">
     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
         <header class="entry-header">
             <?php the_title('<h2 class="entry-title">', '</h2>'); ?>

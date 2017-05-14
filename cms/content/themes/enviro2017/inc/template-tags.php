@@ -128,14 +128,16 @@ function enviro2017_page_hierarchy()
 
     if (!$page_parent) return false; ?>
 
-    <div class="col-md-3 col-sm-4 col-xs-12 col-grid">
+    <div class="col-lg-3 col-lg-offset-1 col-md-3 col-sm-4 col-xs-12 col-grid">
         <div class="page-tree">
             <ul class="nav page-nav">
 
                 <?php
                 wp_list_pages(array(
                     'child_of' => $page_parent,
-                    'title_li' => null
+                    'title_li' => null,
+                    'link_before' => '<span>',
+                    'link_after' => '</span>'
                 ));
                 ?>
 
