@@ -75,8 +75,9 @@ function enviro2017_scripts()
     wp_localize_script('enviro2017-particles', 'ParticlesConfigURL', THEME_DIR_URI . '/js/particlesjs-config.json');
 
     wp_enqueue_script('jquery-match-height', THEME_DIR_URI . '/js/jquery.matchHeight.js', array('jquery'), null, true);
+    wp_enqueue_script('jquery-waypoints', THEME_DIR_URI . '/js/jquery.waypoints.min.js', array('jquery'), null, true);
 
-    wp_enqueue_script('enviro2017-app', THEME_DIR_URI . '/js/app.js', array('jquery', 'enviro2017-particles', 'jquery-match-height'), '20170426', true);
+    wp_enqueue_script('enviro2017-app', THEME_DIR_URI . '/js/app.js', array('jquery', 'enviro2017-particles', 'jquery-match-height','jquery-waypoints'), '20170426', true);
 
 }
 

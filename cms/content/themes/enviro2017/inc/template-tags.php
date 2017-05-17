@@ -80,7 +80,7 @@ if (!function_exists('enviro2017_entry_footer')) :
     }
 endif;
 
-function enviro2017_event_date_badge($event_date)
+function enviro2017_date_badge($event_date)
 {
 
     $output = [];
@@ -91,14 +91,12 @@ function enviro2017_event_date_badge($event_date)
             date_i18n("M y", $date->getTimestamp())
         );
 
-    printf('<div class="event-date-badge clearfix">%s</div>', implode("<div class='separator'>-</div>", $output));
+    printf('<div class="date-badge clearfix">%s</div>', implode("<div class='separator'>-</div>", $output));
 
 }
 
 function enviro2017_display_title()
 {
-
-    if (is_front_page() && is_home()) return __('Herzlich Willkommen.');
 
     if (is_archive() || is_single()){
         $post_type = get_post_type_object(get_post_type());
@@ -128,7 +126,7 @@ function enviro2017_page_hierarchy()
 
     if (!$page_parent) return false; ?>
 
-    <div class="col-lg-3 col-lg-offset-1 col-md-3 col-sm-4 col-xs-12 col-grid">
+    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 col-grid">
         <div class="page-tree">
             <ul class="nav page-nav">
 

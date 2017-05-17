@@ -95,7 +95,7 @@ dfn {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 1.75em;
     margin: 0.67em 0;
 }
 
@@ -287,10 +287,27 @@ footer.site-footer {
     background-color: #222;
 }
 
+header.section-header h3{
+    color: #fff;
+    font-size: 1em;
+    margin: 0;
+    font-weight: bold;
+    display: inline-block;
+    background: #aaa;
+    text-align: right;
+    padding: 10px 40px;
+
+}
+
 header.page-header {
     margin: 0;
     padding: 0;
     border-bottom: none;
+}
+
+header.section-header{
+    margin-top: 40px;
+    border-bottom: 1px solid #ccc;
 }
 
 header.page-header ul.categories {
@@ -365,16 +382,6 @@ div.container-grid .page-tree {
     border-bottom: 1px solid #e2e2e2;
 }
 
-/*.page-tree ul a:after{
-    content: " ";
-    display: block;
-    height: 1px;
-    background: #e2e2e2;
-    width: 100%;
-    position:absolute;
-    left:20px;
-    bottom: 0;
-}*/
 .page-tree ul a:hover,
 .page-tree ul li.current_page_item > a {
     color: #fff;
@@ -386,7 +393,7 @@ div.container-grid .page-tree {
     border-color: #344f91
 }
 
-article.event a,
+article .entry-header a,
 .page-tree ul a {
     color: #555;
 }
@@ -406,11 +413,12 @@ div.container-grid .col-grid {
     padding: 10px;
 }
 
-div.container-grid h2.entry-title {
+div.container-grid h2.entry-title,
+div.container-grid h1.entry-title {
     margin-top: 0;
     font-size: 1.5em;
     margin-bottom: 1.2em;
-    line-height: 120%;
+    line-height: 1.2em;
     font-weight: bold;
 }
 
@@ -492,10 +500,53 @@ article {
     background: none;
 }
 
-.navbar-header span.site-title {
+#site-navigation-bar span.site-title {
     display: inline-block;
-    margin-top: 10px;
-    max-width: 340px;
+    padding-top: 10px;
+    max-width: 450px;
+    background: url('img/logo_w.png') no-repeat;
+    background-size: 100px 100px;
+    padding-left: 110px;
+    min-height: 70px;
+}
+
+#site-navigation-bar.fixed span.site-title {
+    padding-top: 8px;
+    padding-left: 80px;
+    max-width: 250px;
+    background: url('img/logo.png') no-repeat;
+    background-size: 70px 70px;
+    min-height: 50px;
+}
+#site-navigation-bar.fixed span.site-title>.inner{
+    display: none;
+}
+#site-navigation-bar.fixed .navbar-header a{
+    color: #555;
+}
+#site-navigation-bar.fixed.navbar-default .navbar-nav > .active > a{
+    color: #344f91;
+    border-bottom: none;
+}
+
+#site-navigation-bar.fixed.navbar-default .navbar-nav > li > a{
+    color: #555;
+}
+
+site-navigation-bar.fixed.navbar-default .navbar-nav > li > a:hover{
+    color: #344f91;
+}
+
+#site-navigation-bar.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #e2e2e2 url('img/Download.png');
+    -moz-box-shadow: 2px 3px 27px -7px rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow: 2px 3px 27px -7px rgba(0, 0, 0, 0.22);
+    box-shadow: 2px 3px 27px -7px rgba(0, 0, 0, 0.22);
+    border-radius: 0;
+    border-bottom: 1px solid #ccc;
 }
 
 .cover {
@@ -518,12 +569,35 @@ article {
     color: #344f91;
 }
 
-.entry-content h2 {
+.entry-content h1,
+.entry-content h2{
     font-size: 1.5em;
-    margin: 1.2em 0;
+    margin: 0 0 1.2em;
+    font-weight: bold;
+    line-height: 1.2em;
 }
 
-article.event .event-date-badge {
+.entry-content p{
+    margin-bottom: 1.5em;
+}
+
+.entry-content h3 {
+    font-size: 1.5em;
+    margin: 0 0 1.2em;
+    font-weight: bold;
+    line-height: 1.2em;
+}
+
+.entry-content h4,
+.entry-content h5,
+.entry-content h6{
+    font-size: 1em;
+    margin: 0 0 1.5em;
+    font-weight: bold;
+    line-height: 1.2em;
+}
+
+article .date-badge {
     float: right;
     background: #344f91;
     color: #fff;
@@ -535,6 +609,11 @@ article.event .event-date-badge {
     text-align: center;
 }
 
+.entry-content .badge-logo{
+    float: right;
+    margin: -40px -40px 40px 40px;
+}
+
 article.event a.attachement {
     color: #344f91;
 }
@@ -543,28 +622,34 @@ article.event a.attachement {
     font-weight: bold;
 }
 
-.event-date-badge > div {
+.date-badge > div {
     position: relative;
     float: left;
     padding: 10px;
 }
 
-.event-date-badge > div.separator {
+.date-badge > div.separator {
     padding-left: 0px;
     padding-right: 0px;
 }
 
-.event-date-badge .day,
-.event-date-badge .separator {
+.date-badge .day,
+.date-badge .separator {
     font-size: 1.8em;
     line-height: 100%;
     margin-bottom: 7px;
 }
 
-.event-date-badge .day,
-.event-date-badge .month-year {
+.date-badge .day,
+.date-badge .month-year {
     display: inline-block;
     width: 100%;
+}
+
+.pub-image.center img{
+    display: block;
+    position: relative;
+    margin: 40px auto;
 }
 
 .transition,
@@ -599,6 +684,21 @@ header.page-header ul.categories > li > a:hover,
     -moz-transition-duration: 200ms;
     -o-transition-duration: 200ms;
     transition-duration: 200ms;
+}
+
+
+@media (max-width: 1440px){
+
+    .container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1440px){
+
+    .container {
+        width: 1440px;
+    }
 }
 
 

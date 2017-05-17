@@ -16,6 +16,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <?php wp_head(); ?>
+    <!--[if lt IE 9]>
+    <script src="<?php echo THEME_DIR_URI; ?>/js/html5shiv.js"></script>
+    <script src="<?php echo THEME_DIR_URI; ?>/js/respond.min.js"></script>
+    <![endif]-->
 </head>
 
 <body <?php body_class(); ?>>
@@ -24,7 +28,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="site-navigation-inner">
-                    <div class="navbar navbar-default navbar-fat navbar-clean">
+                    <div id="site-navigation-bar" class="navbar navbar-default navbar-fat navbar-clean">
                         <div class="container-fluid">
 
                             <button type="button" class="navbar-toggle" data-toggle="collapse"
@@ -34,9 +38,7 @@
 
                                 <a class="clearfix" href="<?php echo esc_url(home_url('/')); ?>"
                                    title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
-                                    <img class="logo" src="<?php echo THEME_DIR_URI; ?>/img/logo_w.png" width="100"
-                                         alt="">
-                                    <span class="site-title"><b><?php bloginfo('title'); ?></b><br/><?php bloginfo('description'); ?></span>
+                                    <span class="site-title"><b><?php bloginfo('title'); ?></b><span class="inner"><br/><?php bloginfo('description'); ?></span></span>
                                 </a>
 
                             </div>

@@ -15,7 +15,7 @@
 
     $event_date[] = DateTime::createFromFormat("Ymd", get_field('date_start'));
     if (get_field('is_multi_day')) $event_date[] = DateTime::createFromFormat("Ymd", get_field('date_end'));
-    enviro2017_event_date_badge($event_date);
+    enviro2017_date_badge($event_date);
 
     ?>
     <header class="entry-header">
