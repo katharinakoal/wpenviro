@@ -3,17 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a0ba5ab0-9935-4b47-ae39-49c900420a9b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/content/themes/enviro2017/functions.php" afterPath="$PROJECT_DIR$/cms/content/themes/enviro2017/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/content/themes/enviro2017/header.php" afterPath="$PROJECT_DIR$/cms/content/themes/enviro2017/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/content/themes/enviro2017/inc/template-tags.php" afterPath="$PROJECT_DIR$/cms/content/themes/enviro2017/inc/template-tags.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/content/themes/enviro2017/front-page.php" afterPath="$PROJECT_DIR$/cms/content/themes/enviro2017/front-page.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/content/themes/enviro2017/js/app.js" afterPath="$PROJECT_DIR$/cms/content/themes/enviro2017/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/content/themes/enviro2017/page.php" afterPath="$PROJECT_DIR$/cms/content/themes/enviro2017/page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/content/themes/enviro2017/single.php" afterPath="$PROJECT_DIR$/cms/content/themes/enviro2017/single.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/content/themes/enviro2017/style.css" afterPath="$PROJECT_DIR$/cms/content/themes/enviro2017/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/content/themes/enviro2017/template-parts/content-event.php" afterPath="$PROJECT_DIR$/cms/content/themes/enviro2017/template-parts/content-event.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/content/themes/enviro2017/template-parts/content-page.php" afterPath="$PROJECT_DIR$/cms/content/themes/enviro2017/template-parts/content-page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/content/themes/enviro2017/template-parts/content-publication.php" afterPath="$PROJECT_DIR$/cms/content/themes/enviro2017/template-parts/content-publication.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cms/content/themes/enviro2017/template-parts/content.php" afterPath="$PROJECT_DIR$/cms/content/themes/enviro2017/template-parts/content.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,73 +17,24 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="40" column="115" lean-forward="false" selection-start-line="40" selection-start-column="115" selection-end-line="40" selection-end-column="115" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content-publication.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/template-parts/content-publication.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="17" column="83" lean-forward="false" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/wp-config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="78" column="3" lean-forward="true" selection-start-line="78" selection-start-column="3" selection-end-line="78" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="79" column="150" lean-forward="false" selection-start-line="79" selection-start-column="150" selection-end-line="79" selection-end-column="150" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="489" column="1" lean-forward="true" selection-start-line="489" selection-start-column="1" selection-end-line="489" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="particles.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/js/particles.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="486">
+              <caret line="548" column="0" lean-forward="true" selection-start-line="548" selection-start-column="0" selection-end-line="548" selection-end-column="0" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <marker date="1495370870395" expanded="true" signature="1621:1638" ph="{...}" />
+                <marker date="1495370870395" expanded="true" signature="13661:13663" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="particlesjs-config.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/js/particlesjs-config.json">
+      <file leaf-file-name="front-page.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/front-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+            <state relative-caret-position="408">
+              <caret line="38" column="61" lean-forward="false" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -100,29 +43,11 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template-tags.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/inc/template-tags.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1274">
-              <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="archive.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/archive.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-              <folding />
+            <state relative-caret-position="588">
+              <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+              <folding>
+                <marker date="1495370460683" expanded="true" signature="94:290" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,6 +78,7 @@
       <find>fluid</find>
       <find>border-</find>
       <find>main</find>
+      <find>.fixed</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -179,15 +105,15 @@
         <option value="$PROJECT_DIR$/cms/content/themes/enviro2017/template-parts/content-event.php" />
         <option value="$PROJECT_DIR$/cms/content/themes/enviro2017/single.php" />
         <option value="$PROJECT_DIR$/cms/content/themes/enviro2017/template-parts/content.php" />
-        <option value="$PROJECT_DIR$/cms/content/themes/enviro2017/front-page.php" />
         <option value="$PROJECT_DIR$/cms/content/themes/enviro2017/archive.php" />
         <option value="$PROJECT_DIR$/cms/content/themes/enviro2017/inc/template-tags.php" />
         <option value="$PROJECT_DIR$/cms/content/themes/enviro2017/page.php" />
         <option value="$PROJECT_DIR$/cms/wp-config.php" />
         <option value="$PROJECT_DIR$/cms/content/themes/enviro2017/template-parts/content-publication.php" />
         <option value="$PROJECT_DIR$/cms/content/themes/enviro2017/functions.php" />
-        <option value="$PROJECT_DIR$/cms/content/themes/enviro2017/js/app.js" />
         <option value="$PROJECT_DIR$/cms/content/themes/enviro2017/header.php" />
+        <option value="$PROJECT_DIR$/cms/content/themes/enviro2017/front-page.php" />
+        <option value="$PROJECT_DIR$/cms/content/themes/enviro2017/js/app.js" />
         <option value="$PROJECT_DIR$/cms/content/themes/enviro2017/style.css" />
       </list>
     </option>
@@ -200,10 +126,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1680" />
-    <option name="y" value="-228" />
-    <option name="width" value="1680" />
-    <option name="height" value="1028" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -222,6 +148,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -418,7 +345,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -547,34 +473,35 @@
       <workItem from="1494763900868" duration="1051000" />
       <workItem from="1494770138045" duration="367000" />
       <workItem from="1494849673940" duration="27734000" />
+      <workItem from="1495364831948" duration="4209000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108138000" />
+    <option name="totallyTimeSpent" value="112347000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1680" y="-228" width="1680" height="1028" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1736111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3274244" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17380953" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32637075" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -769,7 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="21" column="93" lean-forward="false" selection-start-line="21" selection-start-column="93" selection-end-line="21" selection-end-column="93" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -778,16 +704,6 @@
         <state relative-caret-position="360">
           <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding>
-            <marker date="1495013747000" expanded="true" signature="5152:5210" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -807,51 +723,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/inc/template-tags.php">
+    <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1274">
-          <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/archive.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="595">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding>
+            <marker date="1495364788955" expanded="true" signature="2027:3089" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cms/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="617">
-          <caret line="78" column="3" lean-forward="true" selection-start-line="78" selection-start-column="3" selection-end-line="78" selection-end-column="3" />
+          <caret line="78" column="3" lean-forward="false" selection-start-line="78" selection-start-column="3" selection-end-line="78" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/template-parts/content-publication.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="187">
           <caret line="17" column="83" lean-forward="false" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
-          <folding />
+          <folding>
+            <marker date="1495364789139" expanded="true" signature="286:434" ph="..." />
+            <marker date="1495364789139" expanded="true" signature="361:434" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/functions.php">
+    <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="79" column="150" lean-forward="false" selection-start-line="79" selection-start-column="150" selection-end-line="79" selection-end-column="150" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="17">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <marker date="1495364788932" expanded="true" signature="1880:1924" ph="..." />
+            <marker date="1495364788932" expanded="true" signature="1880:1960" ph="..." />
+            <marker date="1495364788932" expanded="true" signature="1880:2625" ph="..." />
+            <marker date="1495364788932" expanded="true" signature="1880:2652" ph="..." />
+            <marker date="1495364788932" expanded="true" signature="1880:2694" ph="..." />
+            <marker date="1495364788932" expanded="true" signature="1880:2709" ph="..." />
+            <marker date="1495364788932" expanded="true" signature="1880:2723" ph="..." />
+            <marker date="1495364788932" expanded="true" signature="1880:3227" ph="..." />
+            <marker date="1495364788932" expanded="true" signature="1995:2593" ph="..." />
+            <marker date="1495364788932" expanded="true" signature="2008:2590" ph="..." />
+            <marker date="1495364788932" expanded="true" signature="2047:2589" ph="..." />
+            <marker date="1495364788932" expanded="true" signature="2778:3070" ph="..." />
+            <marker date="1495364788932" expanded="true" signature="2853:3058" ph="..." />
+            <marker date="1495364788932" expanded="true" signature="2883:3043" ph="..." />
+            <marker date="1495364788932" expanded="true" signature="2930:3024" ph="..." />
+            <marker date="1495364788932" expanded="true" signature="2961:2995" ph="..." />
+            <marker date="1495364788932" expanded="true" signature="3102:3227" ph="..." />
+            <marker date="1495364788932" expanded="true" signature="3140:3227" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -860,32 +784,79 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/js/particlesjs-config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        <state relative-caret-position="17">
+          <caret line="32" column="19" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/header.php">
+    <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/inc/template-tags.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="40" column="115" lean-forward="false" selection-start-line="40" selection-start-column="115" selection-end-line="40" selection-end-column="115" />
+        <state relative-caret-position="17">
+          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+          <folding>
+            <marker date="1495364789077" expanded="true" signature="4542:4980" ph="{...}" />
+            <marker date="1495364789077" expanded="true" signature="4571:4966" ph="..." />
+            <marker date="1495364789077" expanded="true" signature="4603:4955" ph="..." />
+            <marker date="1495364789077" expanded="true" signature="4641:4940" ph="..." />
+            <marker date="1495364789077" expanded="true" signature="4665:4920" ph="..." />
+            <marker date="1495364789077" expanded="true" signature="4696:4901" ph="..." />
+            <marker date="1495364789077" expanded="true" signature="4702:4900" ph="..." />
+            <marker date="1495364789077" expanded="true" signature="4985:5058" ph=" Returns true if a blog has more than 1 category. ..." />
+            <marker date="1495364789077" expanded="true" signature="5099:5980" ph="{...}" />
+            <marker date="1495364789077" expanded="true" signature="5184:5690" ph="..." />
+            <marker date="1495364789077" expanded="true" signature="5306:5483" ph="..." />
+            <marker date="1495364789077" expanded="true" signature="5312:5482" ph="..." />
+            <marker date="1495364789077" expanded="true" signature="5726:5849" ph="..." />
+            <marker date="1495364789077" expanded="true" signature="5857:5977" ph="..." />
+            <marker date="1495364789077" expanded="true" signature="5985:6052" ph=" Flush out the transients used in enviro2017_categorized_blog. ..." />
+            <marker date="1495364789077" expanded="true" signature="6103:6258" ph="{...}" />
+            <marker date="1495364789077" expanded="true" signature="6160:6181" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="33" column="39" lean-forward="false" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="38" column="61" lean-forward="false" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+          <folding>
+            <marker date="1495370460683" expanded="true" signature="94:290" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cms/content/themes/enviro2017/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="489" column="1" lean-forward="true" selection-start-line="489" selection-start-column="1" selection-end-line="489" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="486">
+          <caret line="548" column="0" lean-forward="true" selection-start-line="548" selection-start-column="0" selection-end-line="548" selection-end-column="0" />
+          <folding>
+            <marker date="1495370870395" expanded="true" signature="1621:1638" ph="{...}" />
+            <marker date="1495370870395" expanded="true" signature="13661:13663" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

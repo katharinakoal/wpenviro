@@ -21,12 +21,28 @@
                         $siteNavigationBar.addClass('fixed');
                         break;
                     case 'up':
-                        $siteNavigationBar.removeClass('fixed');
+                        $siteNavigationBar.addClass('fixed-out').removeClass('fixed');
                         break;
                 }
             },
             offset: 100
-        })
+        });
+
+        $('#main').waypoint({
+            handler: function(direction) {
+                var $siteNavigationBar = $('#site-navigation-bar');
+                switch (direction){
+                    case 'down':
+                        $siteNavigationBar.addClass('prepare-fixed');
+                        break;
+                    case 'up':
+                        $siteNavigationBar.removeClass('prepare-fixed').removeClass('fixed-out');
+                        break;
+                }
+            },
+            offset: 200
+        });
+
 
         return {
             init: construct

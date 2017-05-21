@@ -22,8 +22,8 @@ get_header(); ?>
                     <?php while (have_posts()) : the_post(); ?>
 
 
-                        <div class="col-lg-7 col-sm-7 col-xs-12 col-grid">
-                            <article id="post-<?php the_ID(); ?>" <?php post_class('front-page'); ?>>
+                        <div class="col-lg-8 col-sm-12 col-xs-12 col-grid">
+                            <article  <?php post_class('front-page'); ?>>
                                 <div class="entry-content">
                                     <img class="badge-logo" src="<?php echo THEME_DIR_URI; ?>/img/GI-Logo_Q2012_SW.jpg"
                                          width="100" alt="">
@@ -36,8 +36,8 @@ get_header(); ?>
 
                             // loop through the rows of data
                             while (have_rows('teaser')) : the_row(); ?>
-                                <div class="col-lg-5 col-sm-5  col-xs-12 col-grid">
-                                    <article id="post-<?php the_ID(); ?>" <?php post_class('front-page'); ?>>
+                                <div class="col-lg-4 col-sm-6  col-xs-12 col-grid">
+                                    <article <?php post_class('front-page'); ?>>
                                         <div class="entry-content">
                                             <h2><?php the_sub_field('title'); ?></h2>
                                             <?php the_sub_field('description'); ?>
